@@ -16,9 +16,12 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/adminimal_admin_toolbar": "^1.11",
+        "drupal/adminimal_theme": "^1.6",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
-        "drupal/core-recommended": "^9.1"
+        "drupal/core-recommended": "^9.1",
+        "drush/drush": "^10.3"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -84,5 +87,10 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+        "drupal/coder": "^8.3",
+        "drupal/devel": "^4.1"
     }
 }
