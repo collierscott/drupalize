@@ -42,7 +42,6 @@ simpletest
 
 # Ignore IDE files
 /.idea/
-/.vscode/
 *.iml
 *.code-workspace
 
