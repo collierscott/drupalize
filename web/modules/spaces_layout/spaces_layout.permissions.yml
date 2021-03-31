@@ -1,0 +1,4 @@
+administer spaces_layout configuration:
+  title: 'Administer spaces_layout configuration'
+  description: 'Optional description.'
+  restrict access: true
