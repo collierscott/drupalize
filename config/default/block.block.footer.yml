@@ -1,0 +1,34 @@
+uuid: 89f5fc59-0a6c-4ba3-857d-7a0269236b57
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - node
+    - system
+  theme:
+    - spaces
+id: footer
+theme: spaces
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: Footer
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      basic_page: basic_page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

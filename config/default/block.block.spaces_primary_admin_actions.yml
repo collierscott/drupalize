@@ -8,8 +8,8 @@ _core:
   default_config_hash: sBMSSrWtP58IZaz1i3-MJ9yq_y32w1nc7N5DZJmt-4M
 id: spaces_primary_admin_actions
 theme: spaces
-region: header
-weight: -5
+region: content
+weight: -2
 provider: null
 plugin: local_actions_block
 settings:

@@ -12,8 +12,8 @@ _core:
   default_config_hash: 9rMeB9hFDDKsbKpqVK67NJiM0cbgSl2FUJYVmp5bfGc
 id: spaces_main_menu
 theme: spaces
-region: header
-weight: 0
+region: nav_main
+weight: -5
 provider: null
 plugin: 'system_menu_block:main'
 settings:

@@ -8,8 +8,8 @@ _core:
   default_config_hash: ra6f6AXShbzKP9r6uPc9cfCx2KuomlPqmt1WWPUuDf0
 id: spaces_primary_local_tasks
 theme: spaces
-region: header
-weight: -4
+region: content
+weight: 0
 provider: null
 plugin: local_tasks_block
 settings:

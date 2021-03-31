@@ -1,0 +1,8 @@
+uuid: fe39a870-d128-409f-a495-2ed7f4b4feee
+langcode: en
+status: true
+dependencies: {  }
+id: general_comments
+label: 'General Comments'
+target_entity_type_id: node
+description: ''

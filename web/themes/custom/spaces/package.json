@@ -1,40 +1,22 @@
 {
-    "name": "bootstrap4",
+    "name": "ww_bootstrap4",
     "version": "1.0.0",
-    "description": "Bootstrap4 theme for Drupal 8",
+    "description": "## Instructions",
     "main": "index.js",
     "scripts": {
-        "lint:sass": "sass-lint -c .sass-lint.yml --verbose",
-        "build:sass": "node-sass --recursive --output css --output-style expanded --source-map true scss/style.scss css/style.css",
-        "build:sass:4.5.0": "node-sass --recursive --output css --output-style expanded --source-map true scss/style-4-5-0.scss css/style-4-5-0.css",
-        "build:dart:sass": "sass --style=expanded scss/style.scss css/style.css",
-        "build:dart:sass:4.5.0": "sass --style=expanded scss/style-4-5-0.scss css/style-4-5-0.css"
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
+    "author": "",
+    "license": "ISC",
     "devDependencies": {
-        "node-sass": "^4.14.1",
-        "prettier": "^1.19.1",
-        "sass-lint": "^1.13.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@git.drupal.org:project/bootstrap4.git"
-    },
-    "keywords": [
-        "drupal",
-        "theme",
-        "bootstrap"
-    ],
-    "author": [
-        {
-            "name": "Vladimir R",
-            "email": "info@tomato-elephant-studio.com",
-            "url": "https://www.drupal.org/u/vladimiraus"
-        },
-        {
-            "name": "Janna M",
-            "email": "info@tomato-elephant-studio.com",
-            "url": "https://www.drupal.org/u/JannaKha"
-        }
-    ],
-    "license": "MIT"
+        "cross-env": "^7.0.2",
+        "laravel-mix": "^5.0.4",
+        "sass": "^1.26.5",
+        "sass-loader": "^8.0.2"
+    }
 }
