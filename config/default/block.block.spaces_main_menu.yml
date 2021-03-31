@@ -1,0 +1,27 @@
+uuid: 88f966b9-b02b-4c15-9436-0ba5f6d88995
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - spaces
+_core:
+  default_config_hash: 9rMeB9hFDDKsbKpqVK67NJiM0cbgSl2FUJYVmp5bfGc
+id: spaces_main_menu
+theme: spaces
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

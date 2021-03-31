@@ -1,0 +1,22 @@
+uuid: 9b8d774f-b527-481c-acda-86a47ded6bcb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - spaces
+_core:
+  default_config_hash: V7GM1m6Qh500cQE7LWZV8lRuwLqXdjR0S2kSk8pEv6g
+id: spaces_secondary_local_tasks
+theme: spaces
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  provider: core
+  label_display: '0'
+  primary: false
+  secondary: true
+visibility: {  }

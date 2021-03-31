@@ -1,0 +1,22 @@
+uuid: d61c9bae-31a6-4685-8f4e-e1eff55ec980
+langcode: en
+status: true
+dependencies:
+  theme:
+    - spaces
+_core:
+  default_config_hash: ra6f6AXShbzKP9r6uPc9cfCx2KuomlPqmt1WWPUuDf0
+id: spaces_primary_local_tasks
+theme: spaces
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }
